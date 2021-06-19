@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Flip Trello
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -18,7 +18,7 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.
 
-### Deployment
+## Deployment
 
 Project is deployed in firebase and can be accessible in 
 https://flip-trello.web.app/
