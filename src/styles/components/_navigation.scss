@@ -1,0 +1,35 @@
+.menu-icon {
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.line {
+  height: 0.2rem;
+  width: 2.5rem;
+  background-color: $color-mid;
+  margin-bottom: 0.6rem;
+}
+
+.line-1,
+.line-3 {
+  width: 1.8rem;
+  transition: all 0.4s;
+}
+
+.menu-icon:hover .line {
+  width: 2.5rem;
+}
+
+.menu-checkbox:checked ~ .header-items {
+  .line-1 {
+    transform: rotate(-405deg) translate(-5px, 6px);
+    width: 2.5rem;
+  }
+  .line-2 {
+    opacity: 0;
+  }
+  .line-3 {
+    transform: rotate(405deg) translate(-5px, -6px);
+    width: 2.5rem;
+  }
+}

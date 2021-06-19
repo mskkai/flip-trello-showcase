@@ -1,0 +1,11 @@
+html {
+  font-family: $font-plain;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: $blue-mid;
+  color: $color-mid;
+  font-size: 75%;
+}

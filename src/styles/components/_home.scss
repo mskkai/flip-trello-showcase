@@ -1,0 +1,12 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 12rem);
+}
+
+.home-container__title {
+  font-style: italic;
+  font-size: 5rem;
+  text-transform: uppercase;
+}

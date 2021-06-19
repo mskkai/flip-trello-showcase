@@ -1,0 +1,36 @@
+.edit-buttons {
+  display: flex;
+  background-color: $color-light-varient-1;
+}
+
+.edit-button {
+  cursor: pointer;
+  box-shadow: 0 1px 0 0 $blue-mid;
+  width: fit-content;
+  margin: 0 5px 10px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: $color-light;
+  font-weight: 700;
+  outline: none;
+  background-color: $blue-lightish;
+  margin-left: 0;
+}
+
+.edit-button:hover {
+  opacity: 0.7;
+}
+
+.edit-button-cancel {
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  opacity: 0.5;
+  outline: none;
+}
+
+.edit-button-cancel:hover {
+  opacity: 1;
+}

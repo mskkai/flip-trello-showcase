@@ -1,0 +1,33 @@
+.board {
+  height: 92%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.board__add-list {
+  width: 272px;
+  margin: 10px;
+  flex-shrink: 0;
+}
+
+.board__add-list-button {
+  background-color: $color-dark;
+  border-radius: 10px;
+  cursor: pointer;
+  color: $color-light;
+  display: flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 5px 8px;
+  transition: background-color 85ms ease-in, opacity 40ms ease-in,
+    border-color 85ms ease-in;
+  height: fit-content;
+}
+
+.board__add-list-button:hover {
+  background-color: $color-dark;
+}
+
+.board__add-list-button ion-icon {
+  margin-right: 1px;
+}

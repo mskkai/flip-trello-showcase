@@ -1,0 +1,35 @@
+.list {
+  background: $color-lightish;
+  flex-shrink: 0;
+  width: 272px;
+  height: fit-content;
+  margin: 10px;
+  margin-right: 0;
+  border-radius: 10px;
+  border: 1px solid $color-dark;
+}
+
+.list-title {
+  cursor: pointer;
+  padding: 10px;
+  overflow-wrap: break-word;
+}
+
+.toggle-add-card {
+  cursor: pointer;
+  padding: 10px;
+  color: $color-mid;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-add-card:hover {
+  background-color: $color-dark;
+  color: $blue-mid;
+  text-decoration: underline;
+}
+
+.toggle-add-card ion-icon {
+  margin-right: 2px;
+}

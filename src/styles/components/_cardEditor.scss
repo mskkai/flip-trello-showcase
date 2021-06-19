@@ -1,0 +1,17 @@
+.edit-card .card {
+  min-height: 50px;
+  padding-left: 8px;
+  padding-right: 15px;
+}
+
+.edit-card .card:hover {
+  background: $color-light;
+}
+
+.edit-card-textarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 15px;
+}

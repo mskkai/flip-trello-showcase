@@ -1,0 +1,19 @@
+//application css files
+@import "./base/settings";
+@import "./base/base";
+@import "./base/visibility";
+@import "./base/container";
+
+//components
+@import "./components/navigation";
+@import "./components/login";
+@import "./components/header";
+@import "./components/home";
+@import "./components/loader";
+@import "./components/addList";
+@import "./components/board";
+@import "./components/card";
+@import "./components/cardEditor";
+@import "./components/editButtons";
+@import "./components/list";
+@import "./components/listEditor";
